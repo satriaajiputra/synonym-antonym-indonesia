@@ -1,0 +1,22 @@
+{
+    "name": "satria/synonym-antonym-indonesia",
+    "description": "A Class for Getting Synonym or Antonym of word from Indonesian Language",
+    "keywords": ["antonim", "sinonim", "antonim indonesia", "sinonim indonesia"],
+    "type": "package",
+    "require": {
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Satria Aji Putra Karma Jaya", 
+        "email": "satriamaxt@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Satria\\SynonymAntonym\\": "src/"
+        }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev"
+
+}

@@ -13,7 +13,7 @@
     }],
     "autoload": {
         "psr-4": {
-            "Satria\\SynonymAntonym\\": "src/"
+            "SynonymAntonym\\": "src/SynonymAntonym"
         }
     },
     "version": "1.0.0",

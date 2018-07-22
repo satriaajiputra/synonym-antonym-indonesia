@@ -1,5 +1,5 @@
 <?php
-namespace Satria\SynonymAntonym;
+namespace SynonymAntonym;
 
 /**
  * Get synonym and antonym from indonesian language

@@ -26,6 +26,18 @@ $results = $init->word('satria')->synonym();
 ```
 
 # Example Results
+```php
+<?php
+
+$init = new AntonymSynonym\Dictionary;
+
+// success
+$init->word('anggota')->synonym();
+
+// fail
+$init->word('mamam')->synonym();
+```
+
 ### Success Result
 ```php
 Array
